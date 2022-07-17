@@ -46,6 +46,19 @@ const config = {
         ],
     ],
     
+    themes: [
+        [
+            require.resolve("@easyops-cn/docusaurus-search-local"),
+            {
+                // ... Your options.
+                // `hashed` is recommended as long-term-cache of index file is possible.
+                hashed: true,
+                docsRouteBasePath: '/',
+                language: ['en', 'fr']
+            },
+        ],
+    ],
+    
     themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
@@ -57,13 +70,13 @@ const config = {
                 },
                 items: [
                     {
-                        type: 'search',
+                        href: 'https://github.com/Coding-Cloud/',
+                        label: 'GitHub',
                         position: 'right',
                     },
                     {
-                        href: 'https://github.com/Coding-Cloud/',
-                        label: 'GitHub',
-                        position: 'left',
+                        type: 'search',
+                        position: 'right',
                     },
                 ],
             },
