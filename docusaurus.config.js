@@ -54,7 +54,8 @@ const config = {
                 // `hashed` is recommended as long-term-cache of index file is possible.
                 hashed: true,
                 docsRouteBasePath: '/',
-                language: ['en', 'fr']
+                language: 'fr',
+                indexBlog: false
             },
         ],
     ],
@@ -88,7 +89,7 @@ const config = {
                         items: [
                             {
                                 label: 'Tutorial',
-                                to: '/docs/intro',
+                                to: '/',
                             },
                         ],
                     },
@@ -112,10 +113,6 @@ const config = {
                     {
                         title: 'More',
                         items: [
-                            {
-                                label: 'Blog',
-                                to: '/blog',
-                            },
                             {
                                 label: 'GitHub',
                                 href: 'https://github.com/facebook/docusaurus',
