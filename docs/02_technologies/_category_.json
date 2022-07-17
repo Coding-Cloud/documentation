@@ -1,0 +1,8 @@
+{
+  "label" : "Technologies utilisées",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Liste des différentes technologies utilisées ainsi que l'infrastructure de Cloud Coding"
+  }
+}
