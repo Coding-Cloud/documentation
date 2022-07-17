@@ -4,7 +4,5 @@ slug: /
 title: Accueil
 ---
 
-# Bienvenue sur la documentation Cloud Coding !
-
-
+# Bienvenue sur la documentation Cloud Coding ! :champagne::champagne::champagne:
 
