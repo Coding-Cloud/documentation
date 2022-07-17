@@ -8,7 +8,7 @@ id: introduction
 Cloud Coding est une plate-forme collaborative permettant de développer
 des applications web directement dans votre navigateur.
 
-## Attribution d'un domaine
+![](./img/1_introduction-1658073966064.png)
 
 Vos applications sont développées avec un rendu en temps réel,
 disponible grâce à un lien généré sur le domain principale de [Cloud Coding](https://cloudcoding.fr).
