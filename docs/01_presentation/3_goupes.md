@@ -61,4 +61,24 @@ projet.
 
 ### Gestion des membres
 
+L'utilité d'un groupe est de pouvoir ajouter des membres à celui-ci. <br/>
+Pour faire cela, vous pouvez cliquer sur le bouton
+**Ajouter un membre** et vous aurez la possibilité de rechercher un utilisateur à ajouter dans votre groupe.
+Vous pouvez cherche un utilisateur par son nom, son email ou son identifiant.
+
+![](./img/3_goupes-1658243615486.png)
+
+Il est ensuite possible de lui autoriser la modification du groupe et des projets qu'il contient.
+
+On peut également le retirer du groupe.
+
+![](./img/3_goupes-1658243740653.png)
+
 ### Conversation
+
+Un groupe vous permet d'avoir accès à une conversation privée entre les membres de ce dernier.
+Cette conversation est accessible depuis la page **Groupe** de votre groupe. C'est du temps réel, il n'y a pas besoin de
+rafraichir la page pour voir les messages. Vous pouvez formatter vos messages grâce à un éditeur de texte riche en balises.
+
+![](./img/3_goupes-1658243871755.png)
+
