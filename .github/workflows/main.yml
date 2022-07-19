@@ -44,5 +44,5 @@ jobs:
         uses: jaapio/keelsh-deploy@master
         with:
           keelBaseUrl: https://keel.cloudcoding.fr
-          image: rg.fr-par.scw.cloud/cloudcoding/documentation
+          image: rg.fr-par.scw.cloud/cloudcoding/cloudcoding-documentation
           tag: latest
