@@ -71,7 +71,8 @@ Airbnb avec son plugin d'export BodyMovin, pour les animations produites sous Af
 
 #### Socket.io Client
 
-[Socket.IO](https://socket.io/fr/) est une bibliothèque qui permet une communication à faible latence, bidirectionnelle et basée sur les
+[Socket.IO](https://socket.io/fr/) est une bibliothèque qui permet une communication à faible latence, bidirectionnelle
+et basée sur les
 événements entre un client et un serveur.
 
 ![bidirectional-communication2.png](./img/1_technos-1658493495493.png)
@@ -81,28 +82,89 @@ long-polling ou la reconnexion automatique.
 
 ## NestJS
 
+[NestJS](https://nestjs.com/) est un framework Node.js permettant de créer des applications back-end robustes et
+scalable.
+
+Nous avons choisi ce framework, car il est très performant et permet de créer des applications back-end avec typescript.
+
+![](./img/1_technos-1666694108343.png)
+
 ### Librairies
+
+Plusieurs librairies ont été ajoutées à NestJS, afin de rendre notre application plus performante et unique.
 
 #### TypeORM
 
+[TypeORM](https://typeorm.io/#/) est un ORM (Object Relational Mapping) qui permet de faire le lien entre les objets
+d'une application et les tables d'une base de données relationnelle.
+
+![1 i91IY0aM3-ce-FWy9DrZyQ.png](./img/1_technos-1666694213637.png)
+
 #### Passport
+
+[Passport](http://www.passportjs.org/) est un middleware d'authentification pour Node.js. Il est extrêmement flexible et
+peut être facilement adapté à une application ou un service Web existant.
 
 #### Swagger UI
 
+[Swagger UI](https://swagger.io/tools/swagger-ui/) est une interface utilisateur pour les API RESTful. Il permet de
+visualiser et d'interagir avec les ressources d'une API sans avoir à coder une interface utilisateur.
+
+Nous nous sommes beaucoup servis de cette librairie pour tester nos API.
+
+![](./img/1_technos-1666694337719.png)
+
 #### Socket.IO
+
+[Socket.IO](https://socket.io/fr/) est une bibliothèque qui permet une communication à faible latence, bidirectionnelle
+et basée sur les événements entre un client et un serveur.
+
+Nous nous en servons pour tout ce qui est communication en temps réel (édition de code, envoie de message, appel vision,
+...)
 
 #### MailJet
 
+[MailJet](https://www.mailjet.com/) est un service d'envoi d'email. Nous nous en servons pour envoyer des emails à nos
+utilisateurs.
+
 #### Unique names generator
+
+[Unique names generator](https://www.npmjs.com/package/unique-names-generator) est une librairie qui permet de générer
+des noms uniques. Cela nous permet de créer des noms de domaines aléatoires et amusants pour les différents projets.
 
 ## RabbitMQ
 
+[RabbitMQ](https://www.rabbitmq.com/) est un message broker open source. Il permet de faire communiquer des applications
+entre elles.
+
+Nous nous en servons pour faire communiquer notre application NestJS et nos lanceurs d'exécution de code.
+
 ## PostgreSQL
+
+[PostgreSQL](https://www.postgresql.org/) est un système de gestion de base de données relationnelle objet (SGBDRO)
+libre et multiplateforme.
+
+Nous avons choisi cette base de données, car elle est très performante et très fiable.
 
 ## Flask
 
-### Avionix
+[Flask](https://flask.palletsprojects.com/en/2.0.x/) est un framework web Python léger et flexible. Il est conçu pour
+être facile à apprendre et à utiliser. Il est également conçu pour être simple à étendre et à intégrer avec d'autres
+bibliothèques et applications.
+
+Nous avons choisi ce framework pour créer nos lanceurs d'exécution de code, afin que ces derniers aient tous la même
+interface.
 
 ## Kotlin
 
+[Kotlin](https://kotlinlang.org/) est un langage de programmation multiplateforme, orienté objet et fonctionnel,
+développé par JetBrains.
+
+Il est utilisé pour développer notre application mobile Android.
+
 ## Docusaurus
+
+[Docusaurus](https://docusaurus.io/) est un générateur de site web statique open source pour la documentation technique.
+
+Nous avons choisi ce générateur de site web, car il est très performant et permet de créer des sites web statiques, afin
+d'héberger notre documentation.
